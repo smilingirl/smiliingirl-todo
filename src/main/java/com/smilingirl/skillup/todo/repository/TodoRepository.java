@@ -7,7 +7,4 @@ import org.springframework.stereotype.Repository;
 /** Todo repository */
 @Repository
 public interface TodoRepository extends JpaRepository<Todo, Long>{
-
-
-
 }

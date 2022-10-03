@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class TodoController {
 
     TodoService todoService = new TodoService();
-
-
-
     /**
      * トップ画面を表示
      *
