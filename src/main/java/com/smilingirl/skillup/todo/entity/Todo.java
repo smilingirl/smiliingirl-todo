@@ -22,9 +22,9 @@ public class Todo {
         todo.deadline = todoForm.getDeadline();
         return todo;
     }
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     public Long getId(){
         return this.id;
     }
