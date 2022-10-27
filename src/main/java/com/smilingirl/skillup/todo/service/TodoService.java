@@ -13,12 +13,10 @@ package com.smilingirl.skillup.todo.service;
 @Transactional
 public class TodoService {
     private final TodoRepository todoRepository;
-
     public TodoService(TodoRepository todoRepository) {
         this.todoRepository = todoRepository;
     }
-    public TodoService() {
-    }
+
     /**
      * Todo情報を全件取得する
      *

@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 /** Test Controller */
 @Controller
-public class TodoController {
-
-    TodoService todoService = new TodoService();
+public class TodoController{
+    private final TodoService todoService;
+    public TodoController(TodoService todoService) {
+        this.todoService = todoService;
+        }
     /**
      * トップ画面を表示
      *

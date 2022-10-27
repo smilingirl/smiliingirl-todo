@@ -18,7 +18,7 @@ public class TodoForm {
     public LocalDate getDeadline(){
         return this.deadline;
     }
-    public void setTitle(String name){
+    public void setTitle(String title){
         this.title = title;
     }
     public void setDeadline(LocalDate deadline){
